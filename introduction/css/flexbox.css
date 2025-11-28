@@ -1,14 +1,26 @@
-.container {
+.gallery {
   display: flex;
   flex-wrap: wrap;
-  background-color: LightBlue;
-}
- 
-.container div {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
+  gap: 15px;                /* cleaner spacing */
   padding: 10px;
-  text-align: center;  
-  font-size: 30px;
+  background: LightBlue;
+  justify-content: center;  /* keeps layout balanced */
+}
+
+.item {
+  flex: 1 1 200px;          /* grow, shrink, min width */
+  max-width: 250px;         /* keeps boxes from stretching too much */
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item img {
+  width: 100%;
+  height: auto;             /* keeps aspect ratio */
+  object-fit: cover;
+  border-radius: 6px;
 }
