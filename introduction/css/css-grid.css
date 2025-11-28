@@ -1,14 +1,100 @@
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: dodgerblue;
-    padding: 5px;
-    gap: 5px;
-  }
-  .container div {
-    background-color: #f1f1f1;
-    color: #000;
-    padding: 10px;
-    font-size: 30px;
+/* General page styling */
+body {
+    font-family: 'Courier New', monospace;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #0d0d0d; 
+    color: #e0e0e0; 
+}
+
+/* Page title */
+h1 {
+    font-size: 3rem;
+    color: #00ffcc; 
     text-align: center;
-  }
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
+
+/* Paragraph and section styling */
+p {
+    max-width: 900px;
+    margin: 0 auto 50px auto;
+    padding: 25px;
+    background-color: #111111; 
+    border-left: 5px solid #00ffcc; 
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.3);
+}
+
+/* Bold headings inside the paragraph */
+p b {
+    display: block;
+    font-size: 1.4rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #ff00ff; /* Neon magenta for headings */
+    text-shadow: 0 0 5px #ff00ff;
+    
+}
+
+/* Images inside paragraphs */
+p img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #00ffcc;
+    border: 2px solid #00ffcc;
+}
+
+
+/* Grid container */
+/* New section styling */
+.grid-section {
+    padding: 40px;
+    background-color: #0d0d0d; /* dark tech background */
+    text-align: center;
+}
+
+.grid-section h2 {
+    font-family: 'Courier New', monospace;
+    color: #00ffcc; /* neon cyan */
+    margin-bottom: 30px;
+    font-size: 2rem;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
+
+/* Grid layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Grid items (techy button style) */
+.grid-item {
+    background: linear-gradient(135deg, #00ffcc, #dc61dc); /* neon gradient */
+    color: #0d0d0d; /* dark text for contrast */
+    padding: 30px 20px;
+    font-size: 1.5rem;
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.5), 0 0 20px rgba(255, 0, 255, 0.5);
+    font-family: 'Courier New', monospace;
+}
+
+/* Hover effects */
+.grid-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 40px rgba(0, 255, 204, 0.8), 0 0 40px rgba(255, 0, 255, 0.8);
+    cursor: pointer;
+}
