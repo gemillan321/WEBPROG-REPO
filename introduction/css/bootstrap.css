@@ -1,0 +1,49 @@
+   /* GLOBAL THEME */
+   body {
+    background: #070b1a !important; /* dark cyber blue */
+    color: #e0e0e0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* NEON HEADERS */
+h1, h4 {
+    color: #00eaff;
+    text-shadow: 0 0 10px #00eaff, 0 0 20px #00eaff;
+}
+
+
+h1 {
+    letter-spacing: 2px;
+}
+
+/* CYBER BORDER ACCENTS */
+.fw-bold {
+    border-left: 4px solid #00eaff;
+    padding-left: 10px;
+}
+
+/* NEON CARD (fixes white background) */
+.card {
+    background: rgba(5, 10, 30, 0.7) !important;  
+    border: 1px solid #00eaff55;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #00eaff33;
+    backdrop-filter: blur(6px);
+}
+
+/* LIST ITEMS GLOW */
+li {
+    margin-bottom: 6px;
+    text-shadow: 0 0 6px #00eaff55;
+}
+
+/* IMAGE GLOW */
+img {
+    border: 1px solid #00eaff55;
+    box-shadow: 0 0 20px #00eaff88;
+}
+
+img:hover {
+    box-shadow: 0 0 35px #00eaffcc;
+    transition: 0.3s ease;
+}

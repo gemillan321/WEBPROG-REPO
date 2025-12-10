@@ -1,48 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>WEBPROG IT242 Introduction</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
+
 <body>
 
-<h1>Personal Profile Web Page</h1>
+    <div class="container py-5">
 
-<p>
-<b>About Me</b><br>
-Hi, I'm Miles Angelo C. Gemillan. I'm an ambitious Computer Science student who loves cybersecurity, music, and constantly improving myself.  
-<br><br>
+        <!-- Header -->
+        <div class="text-center mb-4">
+            <h1 class="fw-bold">Personal Profile Web Page</h1>
+        </div>
 
-<b>Education / Achievements</b><br>
-Bachelor of Science in Computer Science with Specialization in Cybersecurity  
-Active in Capture the Flag (CTF) competitions and Hack The Box  
-<br><br>
+        <!-- Main Card -->
+        <div class="card p-4">
+            <div class="card-body">
 
-<b>IT Experience</b><br>
-Uses Kali Linux, Wireshark, Virtualization tools, Burp Suite, and various forensic utilities for CTFs  
-Experience with command-line tools, compression utilities, and network analysis  
-<br><br>
+                <!-- About Me -->
+                <h4 class="fw-bold">About Me</h4>
+                <p>Hi, I'm Miles Angelo C. Gemillan. I'm an ambitious Computer Science student who loves cybersecurity, music, and constantly improving myself.</p>
 
-<b>Hobbies & Interests</b><br>
-Playing guitar (intermediate rhythm and lead)  
-Practicing with bands and exploring tone shaping  
-Cybersecurity challenges, problem solving, and learning new tools  
-<br><br>
+                <!-- Education -->
+                <h4 class="fw-bold mt-4">Education / Achievements</h4>
+                <ul>
+                    <li>Bachelor of Science in Computer Science with Specialization in Cybersecurity</li>
+                    <li>Active in Capture the Flag (CTF) competitions and Hack The Box</li>
+                </ul>
 
-<b>Goals in Life / Dream</b><br>
-Become a skilled cybersecurity professional  
-Master digital forensics and offensive security  
-Grow as a musician and perform confidently with a band  
-<br><br>
+                <!-- IT Experience -->
+                <h4 class="fw-bold mt-4">IT Experience</h4>
+                <ul>
+                    <li>Uses Kali Linux, Wireshark, Virtualization tools, Burp Suite, and forensic utilities</li>
+                    <li>Experience with CLI tools, compression utilities, and network analysis</li>
+                </ul>
 
-<b>Projects</b><br>
-I will put my future projects here
-<br><br>
+                <!-- Hobbies -->
+                <h4 class="fw-bold mt-4">Hobbies & Interests</h4>
+                <ul>
+                    <li>Playing guitar (intermediate rhythm and lead)</li>
+                    <li>Practicing with bands and exploring tone shaping</li>
+                    <li>Cybersecurity challenges and problem-solving</li>
+                </ul>
 
-<b>Picture Gallery</b><br>
-<img src="hehe.jpg" alt="Me Playing" width="900" height="600">
-</p>
+                <!-- Goals -->
+                <h4 class="fw-bold mt-4">Goals in Life / Dream</h4>
+                <ul>
+                    <li>Become a skilled cybersecurity professional</li>
+                    <li>Master digital forensics and offensive security</li>
+                    <li>Grow as a musician and perform confidently</li>
+                </ul>
 
+                <!-- Projects -->
+                <h4 class="fw-bold mt-4">Projects</h4>
+                <p>I will put my future projects here.</p>
+
+                <!-- Picture Gallery -->
+                <h4 class="fw-bold mt-4">Picture Gallery</h4>
+                <div class="row">
+                    <div class="col-md-12 p-0">
+                        <img src="hehe.jpg" alt="Me Playing" class="img-fluid rounded w-50">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
