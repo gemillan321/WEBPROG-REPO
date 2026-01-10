@@ -57,6 +57,13 @@ the development of this website:
 * Mobile Responsive: Optimized for desktop, tablet, and mobile viewing.
 * CSS Consistency: Global variables used for uniform color schemes.
 
+5.AI ATTRIBUTION
+* AI Thought Partner: Gemini (Google)
+  Specific Contribution: Gemini helped in fixing the Bootstrap 5 
+  implementation, specifically resolving grid alignment issues 
+  and ensuring component responsiveness when integrated with 
+  dynamic Vue.js data-binding.
+
 ===========================================================
 END OF DOCUMENTATION
 ===========================================================
